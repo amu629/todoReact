@@ -1,0 +1,27 @@
+.display {
+    background-color: rgb(211, 216, 230);
+    text-align: center;
+    width: 40%;
+    margin: 4px 5px;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+
+
+
+.fa-trash-o {
+    cursor: pointer;
+    float: right;
+}
+
+.para {
+    padding: 0px 8px;
+    max-width: 80ch;
+    cursor: text;
+    text-align: left;
+}
+
+.display:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
