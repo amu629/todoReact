@@ -12,6 +12,7 @@ export default class Display extends Component {
                             <button className="fa fa-trash-o" 
                             onClick={() => this.props.deleteItems(item.key)}></button>
                         </span>
+                        <button>hi</button>
                     </p>
                 </div>
             )
@@ -23,4 +24,3 @@ export default class Display extends Component {
         );
     }
 }
-
